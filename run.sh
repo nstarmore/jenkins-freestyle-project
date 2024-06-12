@@ -2,5 +2,6 @@
 
 echo "Hello from Jenkins" | tee jenkins.txt
 
-echo "jenkins.txt created"
+echo "jenkins.txt created by run.sh"
 
+sleep 10
