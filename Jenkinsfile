@@ -14,7 +14,7 @@ pipeline {
         }
         stage ('Echo Jenkins job name') {
             steps {
-                sh "echo "Hello from the Jenkins job named: \${JOB_NAME}""
+                sh "echo "Hello from the Jenkins job named: \$JOB_NAME""
             }
         }
         stage ('Create txt files') {
