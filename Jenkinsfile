@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('clean') {
+        stage ('Clean') {
             steps {
                 cleanWs()
                 git url: 'https://github.com/nstarmore/jenkins-freestyle-project', branch: 'main'
